@@ -1,0 +1,39 @@
+[ car<Strings(), PowerStructure(GrpMat), PowerStructure(GrpMat), IntegerRing()> |
+    <
+"X9"        ,
+
+        MatrixGroup<2, IntegerRing(4) |
+            Matrix(IntegerRing(4), 2, 2, [ 1, 0, 2, 3 ]),
+            Matrix(IntegerRing(4), 2, 2, [ 1, 1, 0, 1 ]),
+            Matrix(IntegerRing(4), 2, 2, [ 1, 2, 0, 1 ]),
+            ScalarMatrix(IntegerRing(4), 2, 3),
+            Matrix(IntegerRing(4), 2, 2, [ 3, 2, 0, 3 ])
+                /* order = 16 = 2^4 */ >,
+
+        MatrixGroup<2, IntegerRing(4) |
+            ScalarMatrix(IntegerRing(4), 2, 3),
+            Matrix(IntegerRing(4), 2, 2, [ 1, 1, 0, 1 ])
+                /* order = 8 = 2^3 */ >,
+
+        1
+    >,
+
+    <
+"X11"        ,
+
+        MatrixGroup<2, IntegerRing(4) |
+            Matrix(IntegerRing(4), 2, 2, [ 1, 0, 2, 3 ]),
+            Matrix(IntegerRing(4), 2, 2, [ 1, 2, 0, 1 ]),
+            Matrix(IntegerRing(4), 2, 2, [ 1, 3, 2, 3 ]),
+            ScalarMatrix(IntegerRing(4), 2, 3),
+            Matrix(IntegerRing(4), 2, 2, [ 3, 2, 0, 3 ])
+                /* order = 16 = 2^4 */ >,
+
+        MatrixGroup<2, IntegerRing(4) |
+            Matrix(IntegerRing(4), 2, 2, [ 1, 2, 0, 1 ]),
+            Matrix(IntegerRing(4), 2, 2, [ 1, 3, 2, 3 ])
+                /* order = 8 = 2^3 */ >,
+
+        1
+    >
+]

@@ -1,0 +1,33 @@
+[ car<Strings(), PowerStructure(GrpMat), PowerStructure(GrpMat), IntegerRing()> |
+    <
+"X441"        ,
+
+        MatrixGroup<2, IntegerRing(32) |
+            Matrix(IntegerRing(32), 2, 2, [ 17, 0, 16, 1 ]),
+            Matrix(IntegerRing(32), 2, 2, [ 1, 16, 16, 17 ]),
+            Matrix(IntegerRing(32), 2, 2, [ 1, 16, 0, 1 ]),
+            DiagonalMatrix(IntegerRing(32), [17, 1]),
+            Matrix(IntegerRing(32), 2, 2, [ 15, 8, 24, 7 ]),
+            ScalarMatrix(IntegerRing(32), 2, 31),
+            Matrix(IntegerRing(32), 2, 2, [ 31, 0, 31, 1 ]),
+            Matrix(IntegerRing(32), 2, 2, [ 3, 11, 27, 30 ]),
+            Matrix(IntegerRing(32), 2, 2, [ 15, 20, 4, 3 ]),
+            ScalarMatrix(IntegerRing(32), 2, 29),
+            Matrix(IntegerRing(32), 2, 2, [ 29, 2, 2, 31 ]) >,
+
+        MatrixGroup<2, IntegerRing(32) |
+            Matrix(IntegerRing(32), 2, 2, [ 17, 0, 16, 17 ]),
+            Matrix(IntegerRing(32), 2, 2, [ 1, 16, 0, 1 ]),
+            Matrix(IntegerRing(32), 2, 2, [ 17, 16, 16, 1 ]),
+            Matrix(IntegerRing(32), 2, 2, [ 17, 16, 0, 1 ]),
+            ScalarMatrix(IntegerRing(32), 2, 25),
+            Matrix(IntegerRing(32), 2, 2, [ 11, 14, 14, 25 ]),
+            ScalarMatrix(IntegerRing(32), 2, 7),
+            Matrix(IntegerRing(32), 2, 2, [ 9, 8, 24, 1 ]),
+            Matrix(IntegerRing(32), 2, 2, [ 29, 8, 24, 5 ]),
+            Matrix(IntegerRing(32), 2, 2, [ 21, 28, 28, 1 ]),
+            Matrix(IntegerRing(32), 2, 2, [ 21, 29, 29, 18 ]) >,
+
+        3
+    >
+]

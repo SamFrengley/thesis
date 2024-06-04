@@ -1,0 +1,27 @@
+[ car<Strings(), PowerStructure(GrpMat), PowerStructure(GrpMat), IntegerRing()> 
+    |
+    <
+"X55"        ,
+
+        MatrixGroup<2, IntegerRing(16) |
+            DiagonalMatrix(IntegerRing(16), [9, 1]),
+            Matrix(IntegerRing(16), 2, 2, [ 1, 0, 8, 9 ]),
+            Matrix(IntegerRing(16), 2, 2, [ 1, 8, 8, 9 ]),
+            DiagonalMatrix(IntegerRing(16), [1, 9]),
+            Matrix(IntegerRing(16), 2, 2, [ 13, 5, 4, 11 ]),
+            Matrix(IntegerRing(16), 2, 2, [ 11, 12, 4, 15 ]),
+            Matrix(IntegerRing(16), 2, 2, [ 5, 9, 11, 12 ]),
+            ScalarMatrix(IntegerRing(16), 2, 15),
+            ScalarMatrix(IntegerRing(16), 2, 11),
+            Matrix(IntegerRing(16), 2, 2, [ 5, 14, 2, 15 ])
+                /* order = 1536 = 2^9 * 3 */ >,
+
+        MatrixGroup<2, IntegerRing(16) |
+            Matrix(IntegerRing(16), 2, 2, [ 13, 1, 3, 12 ]),
+            Matrix(IntegerRing(16), 2, 2, [ 14, 11, 9, 3 ]),
+            Matrix(IntegerRing(16), 2, 2, [ 6, 1, 3, 13 ])
+                /* order = 768 = 2^8 * 3 */ >,
+
+        3
+    >
+]

@@ -1,0 +1,24 @@
+[ car<Strings(), PowerStructure(GrpMat), PowerStructure(GrpMat), IntegerRing()> 
+    |
+
+    <
+"X63"        ,
+
+        MatrixGroup<2, IntegerRing(8) |
+            Matrix(IntegerRing(8), 2, 2, [ 1, 4, 0, 1 ]),
+            Matrix(IntegerRing(8), 2, 2, [ 3, 4, 0, 3 ]),
+            Matrix(IntegerRing(8), 2, 2, [ 3, 6, 6, 5 ]),
+            Matrix(IntegerRing(8), 2, 2, [ 5, 1, 6, 7 ]),
+            Matrix(IntegerRing(8), 2, 2, [ 5, 7, 2, 3 ]),
+            ScalarMatrix(IntegerRing(8), 2, 7)
+                /* order = 64 = 2^6 */ >,
+
+        MatrixGroup<2, IntegerRing(8) |
+            Matrix(IntegerRing(8), 2, 2, [ 3, 4, 0, 3 ]),
+            Matrix(IntegerRing(8), 2, 2, [ 5, 6, 4, 1 ]),
+            Matrix(IntegerRing(8), 2, 2, [ 5, 1, 6, 7 ])
+                /* order = 32 = 2^5 */ >,
+
+        5
+    >
+]

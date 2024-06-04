@@ -1,0 +1,1 @@
+In this directory we provide code which computes the numerical invariants of the surfaces $Z_{N,r}$, $W_{N,r}$ and those birational to them. In the `table` subdirectory we provide code which reproduces the tables from the appendix. In the verify section we provide code which checks some numerical claims from the thesis. 

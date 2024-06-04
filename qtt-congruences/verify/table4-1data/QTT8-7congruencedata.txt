@@ -1,0 +1,51 @@
+[ car<Strings(), PowerStructure(GrpMat), PowerStructure(GrpMat), IntegerRing()> 
+    |
+     <
+"X23"        ,
+
+        MatrixGroup<2, IntegerRing(8) |
+            DiagonalMatrix(IntegerRing(8), [5, 1]),
+            Matrix(IntegerRing(8), 2, 2, [ 1, 0, 4, 1 ]),
+            DiagonalMatrix(IntegerRing(8), [1, 5]),
+            Matrix(IntegerRing(8), 2, 2, [ 5, 4, 0, 5 ]),
+            ScalarMatrix(IntegerRing(8), 2, 7),
+            Matrix(IntegerRing(8), 2, 2, [ 1, 0, 2, 7 ]),
+            Matrix(IntegerRing(8), 2, 2, [ 5, 1, 2, 7 ])
+                /* order = 128 = 2^7 */ >,
+
+        MatrixGroup<2, IntegerRing(8) |
+            Matrix(IntegerRing(8), 2, 2, [ 5, 4, 0, 1 ]),
+            DiagonalMatrix(IntegerRing(8), [1, 5]),
+            ScalarMatrix(IntegerRing(8), 2, 7),
+            Matrix(IntegerRing(8), 2, 2, [ 1, 0, 2, 7 ]),
+            DiagonalMatrix(IntegerRing(8), [5, 1]),
+            Matrix(IntegerRing(8), 2, 2, [ 1, 0, 4, 1 ])
+                /* order = 64 = 2^6 */ >,
+
+        7
+    >,
+
+
+    <
+"X91"        ,
+
+        MatrixGroup<2, IntegerRing(8) |
+            Matrix(IntegerRing(8), 2, 2, [ 1, 4, 0, 1 ]),
+            Matrix(IntegerRing(8), 2, 2, [ 1, 7, 0, 7 ]),
+            Matrix(IntegerRing(8), 2, 2, [ 3, 2, 0, 7 ]),
+            Matrix(IntegerRing(8), 2, 2, [ 3, 4, 0, 3 ]),
+            Matrix(IntegerRing(8), 2, 2, [ 3, 7, 6, 5 ]),
+            ScalarMatrix(IntegerRing(8), 2, 7)
+                /* order = 64 = 2^6 */ >,
+
+        MatrixGroup<2, IntegerRing(8) |
+            Matrix(IntegerRing(8), 2, 2, [ 3, 4, 0, 3 ]),
+            Matrix(IntegerRing(8), 2, 2, [ 1, 7, 0, 7 ]),
+            Matrix(IntegerRing(8), 2, 2, [ 7, 5, 0, 1 ]),
+            Matrix(IntegerRing(8), 2, 2, [ 5, 2, 0, 1 ])
+                /* order = 32 = 2^5 */ >,
+
+        7
+    >
+
+]
